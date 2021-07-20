@@ -67,7 +67,7 @@ function ReactElement(type, props) {
 export function createElement(type, config, children) {
   
   const props = {
-    ...config, // 此处做了简化，源码中通过for in进行遍历
+    ...config, // 此处做了简化，源码中通过for in进行的遍历
   }
   
   const childrenLength = arguments.length - 2
