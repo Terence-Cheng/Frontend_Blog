@@ -1,4 +1,4 @@
-# Front End Blog / 前端博客 https://buyixiaojiang.github.io/Frontend_Blog/
+# Front End Blog / 前端博客 https://terence-cheng.github.io/Frontend_Blog/
 ## 浏览器原理
 ### 浏览器渲染流程 
 [1. 浏览器渲染流程(1) — 渲染主流程](https://github.com/Terence-Cheng/Frontend_Blog/issues/2)
