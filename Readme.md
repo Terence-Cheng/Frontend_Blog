@@ -24,3 +24,13 @@
 [leetcode 15.Three Sum](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/15.3-sum.ts)
 
 ### Linked List
+
+
+## TypeScript
+### Generics
+A major part of software engineering is building components that not only have well-defined and consistent APIs, but are also reusable.
+
+#### Generics Constraints
+You can declare a type parameter that is constrained by another type parameter.
+
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/generics.ts
