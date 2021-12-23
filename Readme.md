@@ -21,6 +21,6 @@
 [leetcode 146.LRU Cache](https://github.com/Terence-Cheng/Frontend_Blog/issues/7)
 
 ### Two points
-leetcode 15.Three Sum
+[leetcode 15.Three Sum](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/15.3-sum.ts)
 
 ### Linked List

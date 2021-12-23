@@ -6,14 +6,16 @@
 
 // @lc code=start
 function threeSum(nums: number[]): number[][] {
-    // 1.sort the array
-    // 2.for loop the nums
-    //   2.1 current num is the base target
-    //   2.2 for loop the sub nums which start index is current index plus 1.
+    // 1.sort the array => [-1,0,1,2,-1,-4]
+    // 2.for loop the nums => [-4, -1, -1, 0, 1, 2]
+    //   2.1 current num is the base target, -4
+    //   2.2 for loop the sub nums which start index is current index plus 1. => [-1, -1, 0, 1, 2]
     //   2.3 start point, end point to get the negative base target. until find or the end point less than or equal the start point.
     // 3.Be careful, remove duplicate triplets.
     //   3.1 when for loop the nums, then compare the current num to the previous num.
-    //   3.2 After getting the results of sub nums, remove duplicate triplets before push them to the final result.
+    //   3.2 After getting the results of sub nums, get the different num of start point and end point.
+    // 4.Break the loop.
+    //   because the array is sorted, so if the current num is greater than 0, so it's unnecessary to continue the loop.
 
     function twoSum( twoSumNums: number[], twoSumTarget: number): number[][] {
         const twoSumResult: number[][] = [];
@@ -28,18 +30,17 @@ function threeSum(nums: number[]): number[][] {
             } else if(startNum + endNum < twoSumTarget) {
                 startPoint++;
             } else {
-                twoSumResult.push([startNum, endNum])
-                startPoint++;
+                twoSumResult.push([startNum, endNum]);
+                while (startNum === twoSumNums[startPoint]) {
+                    startPoint++;
+                }
+                while (endNum === twoSumNums[endPoint]) {
+                    endPoint--;
+                }
             }
         }
 
         return twoSumResult;
-    }
-
-    function areArraysEqual(arr1: number[], arr2: number[]) : boolean {
-        return arr1.every((item, index) => {
-            return item === arr2[index]
-        })
     }
 
     const result: number[][] = [];
@@ -49,6 +50,7 @@ function threeSum(nums: number[]): number[][] {
     const target = 0;
 
     for(let i = 0; i < nums.length - 2; i++) {
+        if(nums[i] > 0) break;
         if(i && nums[i] === nums[i - 1]) {
             continue;
         }
@@ -56,12 +58,7 @@ function threeSum(nums: number[]): number[][] {
         const twoSumResults = twoSum(nums.slice(i + 1), negativeBaseTarget);
 
         twoSumResults.forEach(item => {
-            const toAddArr = [nums[i], ...item];
-            const isEqual = result.length && areArraysEqual(result[result.length - 1], toAddArr);
-            if(!isEqual) {
-                result.push(toAddArr)
-            }
-            
+            result.push([nums[i], ...item]); 
         });
     }
 
