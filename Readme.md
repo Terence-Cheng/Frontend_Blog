@@ -22,6 +22,7 @@
 
 ### Two points
 [leetcode 15.Three Sum](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/15.3-sum.ts)
+
 [leetcode 18.Four Sum](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/18.4-sum.ts)
 
 ### Linked List
