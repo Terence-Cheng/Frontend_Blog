@@ -21,9 +21,13 @@
 [leetcode 146.LRU Cache](https://github.com/Terence-Cheng/Frontend_Blog/issues/7)
 
 ### Two points
+[leetcode 167.Two Sum 2](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/167.two-sum-ii-input-array-is-sorted.ts)
+
 [leetcode 15.Three Sum](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/15.3-sum.ts)
 
 [leetcode 18.Four Sum](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/18.4-sum.ts)
+
+[leetcode 16.Three Sum Closest](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/16.3-sum-closest.ts)
 
 ### Linked List
 
