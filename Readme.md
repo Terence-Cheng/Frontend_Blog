@@ -76,19 +76,9 @@ Constructs a type consisting of all properties of Type set to required. The oppo
 #### Readonly<Type>
 Constructs a type with all properties of Type set to readonly, meaning the properties of the constructed type cannot be reassigned.
 
-```
-interface Todo {
-  title: string;
-}
- 
-const todo: Readonly<Todo> = {
-  title: "Delete inactive users",
-};
- 
-todo.title = "Hello"; // error
-```
-
 But, It is not the deep constraint.
+
+Let's implement the DeepReadonly
 
 ```
 interface Info {
@@ -100,21 +90,6 @@ interface Todo {
     title: string;
     info: Info
 }
-   
-const todo: Readonly<Todo> = {
-    title: "Delete inactive users",
-    info: {
-        id: 1,
-        text: 'content'
-    }
-};
-
-todo.info.id = 2 // no errors.
-```
-
-Let's implement the DeepReadonly
-
-```
 type DeepReadonly<T> = {readonly [K in keyof T] : T[K] extends object ? DeepReadonly<T[K]> : T[K] }
 
 const todo2: DeepReadonly<Todo> = {
