@@ -109,3 +109,60 @@ todo2.info.id = 3 // error
 ```
 
 https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/unility_types.ts
+
+#### Pick<Type, Keys>
+Constructs a type by picking the set of properties Keys (string literal or union of string literals) from Type.
+
+```
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+ 
+type TodoPreview = Pick<Todo, "title" | "completed">;
+```
+
+#### Omit<Type, Keys>
+Constructs a type by picking all properties from Type and then removing Keys (string literal or union of string literals).
+```
+type TodoInfo = Omit<Todo, "completed" | "createdAt">;
+```
+
+#### Record
+Constructs an object type whose property keys are Keys and whose property values are Type. This utility can be used to map the properties of a type to another type.
+
+#### Pratice: Assign
+pratice: implement the Assign which is similar to Object.assign.
+
+```
+{
+    interface Todo1 {
+        id: number,
+        title: string,
+    }
+
+    interface Todo2 {
+        id: number,
+        content: string,
+    }
+
+    /* 
+
+    Assign(Todo1, Todo2)
+
+    {
+        id: number,
+        title: string,
+        content: string,
+    }
+    
+    */
+
+    type Diff<T, K> = Omit<T, keyof K>
+
+    type Assign<T, K> = Diff<T, K> & K
+
+    type MergedTodo = Assign<Todo1, Todo2>
+}
+```
