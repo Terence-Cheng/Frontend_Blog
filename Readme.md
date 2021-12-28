@@ -26,6 +26,8 @@ https://frontendtricksblog.blogspot.com/
 
 [leetcode 49.Group Anagrams](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/49.group-anagrams)
 
+[leetcode 447.Number Of Boomeranges](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/447.number-of-boomerangs.ts)
+
 ### Two points
 [leetcode 167.Two Sum 2](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/167.two-sum-ii-input-array-is-sorted.ts)
 

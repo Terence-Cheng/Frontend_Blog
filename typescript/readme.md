@@ -132,3 +132,7 @@ pratice: implement the Assign which is similar to Object.assign.
     type MergedTodo = Assign<Todo1, Todo2>
 }
 ```
+
+### namespaces
+
+### declare
