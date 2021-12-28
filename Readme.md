@@ -40,4 +40,4 @@ https://frontendtricksblog.blogspot.com/
 ### Linked List
 
 ## Tyepscript
-https://github.com/Terence-Cheng/Frontend_Blog/tree/main/typescript
+[Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
