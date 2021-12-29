@@ -24,9 +24,11 @@ https://frontendtricksblog.blogspot.com/
 
 [leetcode 454.Four Sum ii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/454.4-sum-ii.ts)
 
-[leetcode 49.Group Anagrams](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/49.group-anagrams)
+[leetcode 49.Group Anagrams](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/49.group-anagrams.ts)
 
-[leetcode 447.Number Of Boomeranges](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/447.number-of-boomerangs.ts)
+[leetcode 447.Number Of Boomeranges](https://github.com/Terence-Cheng/Frontend_Blog/issues/10)
+
+[** leetcode 49.Max Points On A Line **](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/149.max-points-on-a-line.ts)
 
 ### Two points
 [leetcode 167.Two Sum 2](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/167.two-sum-ii-input-array-is-sorted.ts)
@@ -40,4 +42,5 @@ https://frontendtricksblog.blogspot.com/
 ### Linked List
 
 ## Tyepscript
+
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
