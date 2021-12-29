@@ -136,3 +136,8 @@ pratice: implement the Assign which is similar to Object.assign.
 ### namespaces
 
 ### declare
+
+### unknow
+The unknown type represents any value. This is similar to the any type, but is safer because it’s not legal to do anything with an unknown value:
+
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/unknow.ts
