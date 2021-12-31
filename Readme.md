@@ -47,7 +47,11 @@ https://frontendtricksblog.blogspot.com/
 438
 
 76
+
+[leetcode 220.Contains Duplicate iii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/220.contains-duplicate-iii.ts)
+
 #### Set
+[leetcode 217.Contains Duplicate](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/217.contains-duplicate.ts)
 [leetcode 219.Contains Duplicate ii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/219.contains-duplicate-ii.ts)
 
 
