@@ -54,7 +54,22 @@ https://frontendtricksblog.blogspot.com/
 [leetcode 217.Contains Duplicate](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/217.contains-duplicate.ts)
 [leetcode 219.Contains Duplicate ii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/219.contains-duplicate-ii.ts)
 
+### Linked List
+prev = null, cur, next
 
+[leetcode 206.Reverse Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/206.reverse-linked-list.ts)
+
+[leetcode 92.Reverse Linked List ii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/92.reverse-linked-list-ii.ts)
+
+[leetcode 83.Remove Duplicates From Sorted List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/83.remove-duplicates-from-sorted-list.ts)
+
+86
+
+328
+
+2
+
+445
 
 ## Tyepscript
 
