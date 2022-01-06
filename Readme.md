@@ -63,7 +63,7 @@ prev = null, cur, next
 
 [leetcode 83.Remove Duplicates From Sorted List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/83.remove-duplicates-from-sorted-list.ts)
 
-86
+[leetcode 86.Partition List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/86.partition-list.ts)
 
 328
 
