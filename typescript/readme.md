@@ -146,3 +146,16 @@ https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/unknow.ts
 js: typeof instanceof in
 ts: is
 https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/narrowing.ts
+
+### Function
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/function.ts
+
+### Interface
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/interface.ts
+
+### Class
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/class.ts
+
+### Type assestions
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/type_assertions.ts
+

@@ -65,7 +65,7 @@ prev = null, cur, next
 
 [leetcode 86.Partition List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/86.partition-list.ts)
 
-328
+[leetcode 328.Odd Even Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/328.odd-even-linked-list.ts)
 
 2
 
