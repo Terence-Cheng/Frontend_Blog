@@ -1,4 +1,30 @@
 ## TypeScript
+### Basic Types
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/basic_types.ts
+
+### Type assestions
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/type_assertions.ts
+
+### Class
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/class.ts
+
+### Interface
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/interface.ts
+
+### Function
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/function.ts
+
+### Narrowing
+js: typeof instanceof in
+ts: is
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/narrowing.ts
+
+### unknow
+The unknown type represents any value. This is similar to the any type, but is safer because it’s not legal to do anything with an unknown value:
+
+https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/unknow.ts
+
+
 ### Generics
 A major part of software engineering is building components that not only have well-defined and consistent APIs, but are also reusable.
 
@@ -137,25 +163,8 @@ pratice: implement the Assign which is similar to Object.assign.
 
 ### declare
 
-### unknow
-The unknown type represents any value. This is similar to the any type, but is safer because it’s not legal to do anything with an unknown value:
 
-https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/unknow.ts
 
-### Narrowing
-js: typeof instanceof in
-ts: is
-https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/narrowing.ts
 
-### Function
-https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/function.ts
 
-### Interface
-https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/interface.ts
-
-### Class
-https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/class.ts
-
-### Type assestions
-https://github.com/Terence-Cheng/Frontend_Blog/blob/main/typescript/type_assertions.ts
 
