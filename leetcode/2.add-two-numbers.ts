@@ -55,13 +55,13 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
 
     while(cur1 || cur2) {
 
-        const plusedVal = (cur1 && cur1.val || 0) + (cur2 && cur2.val || 0) + lastExtraDigit;
-        const [tensDigit, onesDigit] = getDigits(plusedVal);
+        const sum = (cur1 && cur1.val || 0) + (cur2 && cur2.val || 0) + lastExtraDigit;
 
-        cur3.next = new ListNode(onesDigit, null);
+        /* Note: new list creation method */
+        cur3.next = new ListNode(sum % 10, null);
         cur3 = cur3.next
 
-        lastExtraDigit = tensDigit;
+        lastExtraDigit = Math.floor(sum / 10);
 
         cur1 = cur1 && cur1.next
         cur2 = cur2 && cur2.next
@@ -69,14 +69,6 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
 
     if(lastExtraDigit) {
         cur3.next = new ListNode(lastExtraDigit, null);
-    }
-
-    function getDigits(val: number): number[] {
-        const strArr = (val + '').split('')
-        if(strArr.length === 1) {
-            strArr.unshift('0')
-        }
-        return [+strArr[0], +strArr[1]]
     }
 
     return l3.next;
