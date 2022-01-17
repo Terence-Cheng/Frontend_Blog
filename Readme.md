@@ -67,7 +67,7 @@ prev = null, cur, next
 
 [leetcode 328.Odd Even Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/328.odd-even-linked-list.ts)
 
-2
+[leetcode 2.Add Two Numbers](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/2.add-two-numbers.ts)
 
 445
 
