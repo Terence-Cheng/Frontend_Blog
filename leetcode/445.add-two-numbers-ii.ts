@@ -44,16 +44,16 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
 
     let carry = 0;
     while(nums1.length || nums2.length) {
-        const sum = (nums1[nums1.length - 1] || 0) + (nums2[nums2.length - 1] || 0) + carry
+
+        const a = nums1.pop()
+        const b = nums2.pop()
+
+        const sum = (a || 0) + (b || 0) + carry
         cur.val = sum % 10
 
         cur = new ListNode(NaN, cur)
-        // cur = prev
 
         carry = Math.floor(sum / 10)
-
-        nums1.pop()
-        nums2.pop()
     }
 
     if(carry) {
