@@ -69,7 +69,7 @@ prev = null, cur, next
 
 [leetcode 2.Add Two Numbers](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/2.add-two-numbers.ts)
 
-445
+[leetcode 445.Add Two Numbers II](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/445.add-two-numbers-ii.ts)
 
 ## Tyepscript
 
