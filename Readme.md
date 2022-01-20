@@ -71,6 +71,12 @@ prev = null, cur, next
 
 [leetcode 445.Add Two Numbers II](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/445.add-two-numbers-ii.ts)
 
+[leetcode 203.Remove Linked List Elements](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/203.remove-linked-list-elements.ts)
+
+82
+
+21
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)

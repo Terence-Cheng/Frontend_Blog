@@ -49,8 +49,8 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
         const b = nums2.pop()
 
         const sum = (a || 0) + (b || 0) + carry
+        
         cur.val = sum % 10
-
         cur = new ListNode(NaN, cur)
 
         carry = Math.floor(sum / 10)
