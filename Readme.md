@@ -73,7 +73,7 @@ prev = null, cur, next
 
 [leetcode 203.Remove Linked List Elements](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/203.remove-linked-list-elements.ts)
 
-82
+[leetcode 82.Remove Linked List Elements ii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/82.remove-duplicates-from-sorted-list-ii.ts)
 
 21
 
