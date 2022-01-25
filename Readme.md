@@ -75,7 +75,7 @@ prev = null, cur, next
 
 [leetcode 82.Remove Linked List Elements ii](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/82.remove-duplicates-from-sorted-list-ii.ts)
 
-21
+[leetcode 21.Merge Two Sorted List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/21.merge-two-sorted-lists.ts)
 
 ## Tyepscript
 
