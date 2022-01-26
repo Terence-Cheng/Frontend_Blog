@@ -77,6 +77,10 @@ prev = null, cur, next
 
 [leetcode 21.Merge Two Sorted List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/21.merge-two-sorted-lists.ts)
 
+[leetcode 24.Swap Nodes In Pairs](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/24.swap-nodes-in-pairs.ts)
+
+[leetcode 25.Reverse Nodes In K Groups ** HARD **](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/25.reverse-nodes-in-k-group.ts)
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)

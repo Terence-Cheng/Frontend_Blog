@@ -10,6 +10,14 @@ function getType(val: string | number) {
     }
 }
 
+function getType0(val: number | number[] | null) {
+    if(typeof val === 'object') {
+        val //  number[] | null
+    } else {
+        val // number type
+    }
+}
+
 // -------------- instanceof -----------
 class Demo1 {
 
@@ -48,6 +56,7 @@ function getType3(val: Obj1 | Obj2) {
         val // Obj2
     }
 }
+  
 
 // -------------- ts: is-----------
 function isObj1Type(val: Obj1 | Obj2): val is Obj1 {
@@ -56,9 +65,9 @@ function isObj1Type(val: Obj1 | Obj2): val is Obj1 {
 
 function getType4(val: Obj1 | Obj2) {
     if(isObj1Type(val)) {
-        val
+        val // Obj1 type
     } else {
-        val
+        val // Obj2 type
     }
 }
 
