@@ -47,10 +47,11 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
     /* 
         Recur:
 
-        1 -> 2 -> 3 -> 4
+        head -> 1 -> 2 -> 3 -> 4 -> rest
 
-        4 -> 3 -> 2 -> 1
+        head -> 4 -> 3 -> 2 -> 1 -> rest
 
+        recur rest
     */
 
      /* 
@@ -58,46 +59,65 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
         [1,2,3,4,5] 2 => There is one node in the rest list
         [1,2,3,4,5] 3 => There is more than one nodes in rest list, and need to keep pointers in the rest list.  
      */   
+
     let dummyHead = new ListNode(NaN, head)    
 
-    const reverse: (a:number, b: ListNode | null) => {nextNode: ListNode, restHead: ListNode, newHead: ListNode, isCompleteList: boolean} = (count, cur) => {
-        if(count >= k || !cur) {
-            return {
-                nextNode: cur,
-                newHead: cur,
-                isCompleteList: count >= k && !!cur,
-                restHead: cur && cur.next,
+    const reverse: 
+        (b: ListNode | null) => {restHead: ListNode, newHead: ListNode, isCompleteFragment: boolean}
+        = (cur) => {
+
+            let newHead = null;
+            let restHead = null;
+            let isCompleteFragment = false;
+
+            const innerReverse:(a: number, b: ListNode | null) => ListNode | null = (count, cur) => {
+                // terminate condition
+                if(count >= k || !cur) {
+                    newHead = cur;
+                    isCompleteFragment = count >= k && !!cur;
+                    restHead = cur && cur.next;
+                    return cur;
+                }
+
+                // come
+                const lastNode = innerReverse(count + 1, cur.next)
+
+                // re
+                if(isCompleteFragment) lastNode.next = cur;
+
+                return cur;
             }
-        }
 
-        const {nextNode, restHead, newHead, isCompleteList } = reverse(count + 1, cur.next)
+            innerReverse(1, cur)
 
-        if(isCompleteList) nextNode.next = cur;
-
-        return {
-            nextNode: cur,
-            restHead,
-            newHead,
-            isCompleteList
-        }
+            return {
+                newHead,
+                restHead,
+                isCompleteFragment,
+            }
     }
 
     let lastHead = dummyHead
     while(true) {
-        const {restHead, nextNode, newHead, isCompleteList } = reverse(1, lastHead.next)
+        const newLast = lastHead.next
+        const {                
+            newHead,
+            restHead,
+            isCompleteFragment, 
+        } = reverse(lastHead.next)
 
         if(!restHead) {
-            if(isCompleteList) {
+            if(isCompleteFragment) {
                 lastHead.next = newHead
-                nextNode.next = null
+                newLast.next = null
             }
             break;
         }
 
         lastHead.next = newHead
-        nextNode.next = restHead
+        newLast.next = restHead
 
-        lastHead = nextNode
+        lastHead = newLast
     }
 
     return dummyHead.next
