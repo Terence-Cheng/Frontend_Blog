@@ -81,6 +81,10 @@ prev = null, cur, next
 
 [leetcode 25.Reverse Nodes In K Groups ** HARD **](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/25.reverse-nodes-in-k-group.ts)
 
+[leetcode 147.Insertion Sort List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/147.insertion-sort-list.ts)
+
+148
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
