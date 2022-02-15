@@ -1,4 +1,4 @@
-// const Promise = require('./Promise-1')
+const Promise = require('./Promise-1')
 /*
 A promise must be in one of three states: pending, fulfilled, or rejected.
 
