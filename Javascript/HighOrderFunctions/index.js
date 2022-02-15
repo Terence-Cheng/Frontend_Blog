@@ -1,6 +1,6 @@
 /* 
-High Order Functions:
-A functions Accepts functions as parameters and/or Returns a function
+High Order Function:
+A function Accepts functions as parameters and/or Returns a function
 */
 
 
@@ -10,7 +10,7 @@ function sayHi(...args) {
 
 sayHi('Jerry')
 
-// 1. Extension method, not modify the exist method.
+// 1. Extending the function which is not changed.
 /* 
     Call a function before call the sayHi
 
