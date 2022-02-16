@@ -5,9 +5,7 @@ const REJECTED = 'REJECTED'
 console.log('my promise')
 
 /* 
-    2.2.7.2 If either onFulfilled or onRejected throws an exception e, promise2 must be rejected with e as the reason..
-   
-    Add try catch in Promise at function then
+
 */
 
 module.exports = class Promise {
