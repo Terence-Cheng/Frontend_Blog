@@ -5,7 +5,7 @@ const REJECTED = 'REJECTED'
 console.log('my promise')
 
 /* 
-2.3.1 If promise and x refer to the same object, reject promise with a TypeError as the reason.
+
 */
 
 function resolvePromise(promise, x, resolve, reject) {
