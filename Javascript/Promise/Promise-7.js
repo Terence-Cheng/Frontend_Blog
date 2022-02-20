@@ -2,21 +2,13 @@ const PEDDING = 'PEDDING'
 const FULFILLED = 'FULFILLED'
 const REJECTED = 'REJECTED'
 
-console.log('my promise 6')
+console.log('my promise 7')
 
 /* 
-2.3.3 Otherwise, if x is an object or function,
-    2.3.3.1 Let then be x.then. [3.5]
-    2.3.3.2 If retrieving the property x.then results in a thrown exception e, reject promise with e as the reason.
-    2.3.3.3 If then is a function, call it with x as this, first argument resolvePromise, and second argument rejectPromise, where:
-        2.3.3.3.1 If/when resolvePromise is called with a value y, run [[Resolve]](promise, y).
-        2.3.3.3.2 If/when rejectPromise is called with a reason r, reject promise with r.
-        2.3.3.3.3 If both resolvePromise and rejectPromise are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored.
-        2.3.3.3.4 If calling then throws an exception e,
-            2.3.3.3.4.1 If resolvePromise or rejectPromise have been called, ignore it.
-            2.3.3.3.4.2 Otherwise, reject promise with e as the reason.
-    2.3.3.4 If then is not a function, fulfill promise with x.
-2.3.4 If x is not an object or function, fulfill promise with x.
+If a promise is resolved with a thenable that participates in a circular thenable chain, 
+such that the recursive nature of [[Resolve]](promise, thenable) eventually causes [[Resolve]](promise, thenable) to be called again, 
+following the above algorithm will lead to infinite recursion. 
+Implementations are encouraged, but not required, to detect such recursion and reject promise with an informative TypeError as the reason. [3.6]
 */
 
 function resolvePromise(promise, x, resolve, reject) {
@@ -39,7 +31,7 @@ function resolvePromise(promise, x, resolve, reject) {
         if(typeof then === 'function') {
             then.call(x, y => {
                 // 2.3.3.3.1 If/when resolvePromise is called with a value y, run [[Resolve]](promise, y).
-                resolve(y)
+                resolvePromise(x, y, resolve, reject)
             }, r => {
                 // 2.3.3.3.2 If/when rejectPromise is called with a reason r, reject promise with r.
                 reject(r)
