@@ -2,12 +2,9 @@ const PEDDING = 'PEDDING'
 const FULFILLED = 'FULFILLED'
 const REJECTED = 'REJECTED'
 
-console.log('my promise 7')
+console.log('my promise 9')
 
 /* 
-If a promise is resolved with a thenable that participates in a circular thenable chain, 
-such that the recursive nature of [[Resolve]](promise, thenable) eventually causes [[Resolve]](promise, thenable) to be called again, 
-following the above algorithm will lead to infinite recursion. 
 Implementations are encouraged, but not required, to detect such recursion and reject promise with an informative TypeError as the reason. [3.6]
 */
 
@@ -31,7 +28,12 @@ function resolvePromise(promise, x, resolve, reject) {
         if(typeof then === 'function') {
             then.call(x, y => {
                 // 2.3.3.3.1 If/when resolvePromise is called with a value y, run [[Resolve]](promise, y).
-                resolvePromise(x, y, resolve, reject)
+                try {
+                    resolvePromise(x, y, resolve, reject)
+                } catch(e) {
+                    // Implementations are encouraged, but not required, to detect such recursion and reject promise with an informative TypeError as the reason. [3.6]
+                    reject(e)
+                }
             }, r => {
                 // 2.3.3.3.2 If/when rejectPromise is called with a reason r, reject promise with r.
                 reject(r)
