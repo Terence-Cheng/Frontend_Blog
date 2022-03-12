@@ -85,7 +85,13 @@ prev = null, cur, next
 
 148 TODO
 
+#### Linked List - Modify value
+
 [leetcode 237.Delete Node In a Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/237.delete-node-in-a-linked-list)
+
+#### Linked List - Two Pointers
+[leetcode 237.Delete Node In a Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/19.remove-nth-node-from-end-of-list)
+
 
 ## Tyepscript
 

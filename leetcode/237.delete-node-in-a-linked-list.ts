@@ -21,11 +21,13 @@
  Do not return anything, modify it in-place instead.
  */
 function deleteNode(root: ListNode | null): void {
-    const next = root.next
+    let next = root.next
 
     root.val = next.val
 
     root.next = next.next
+
+    next = null
 };
 // @lc code=end
 
