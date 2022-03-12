@@ -90,7 +90,7 @@ prev = null, cur, next
 [leetcode 237.Delete Node In a Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/237.delete-node-in-a-linked-list)
 
 #### Linked List - Two Pointers
-[leetcode 237.Delete Node In a Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/19.remove-nth-node-from-end-of-list)
+[leetcode 19.Remove nth node from end of list](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/19.remove-nth-node-from-end-of-list)
 
 
 ## Tyepscript
