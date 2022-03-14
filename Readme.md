@@ -87,11 +87,12 @@ prev = null, cur, next
 
 #### Linked List - Modify value
 
-[leetcode 237.Delete Node In a Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/237.delete-node-in-a-linked-list)
+[leetcode 237.Delete Node In a Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/237.delete-node-in-a-linked-list.ts)
 
 #### Linked List - Two Pointers
-[leetcode 19.Remove nth node from end of list](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/19.remove-nth-node-from-end-of-list)
+[leetcode 19.Remove nth node from end of list](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/19.remove-nth-node-from-end-of-list.ts)
 
+[leetcode 61.Rotate List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/61.rotate-list.ts)
 
 ## Tyepscript
 
