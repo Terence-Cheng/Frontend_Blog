@@ -96,6 +96,8 @@ prev = null, cur, next
 
 [leetcode 143.Reorder List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/143.reorder-list.ts)
 
+[leetcode 234.Palindrome Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/234.palindrome-linked-list.ts)
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)

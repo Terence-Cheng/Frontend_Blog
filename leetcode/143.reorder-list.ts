@@ -24,21 +24,25 @@ function reorderList(head: ListNode | null): void {
     /* 
         1. Get the length -> n. if n <= 2, return
         2. Get the mth from the end -> head2, m = Math.ceil(n / 2) - 1
+
+        Or Just get the middle node in one loop.
+
         3. Reverse head2
         4. p1, p2
     */
+
     /* get the length */
-    let p1 = head;
+    /* let p1 = head;
     let i = 0;
     while(p1) {
         i++;
         p1 = p1.next;
     }
     
-    if(i < 3) return;
+    if(i < 3) return; */
 
     /* get the list from end */
-    const m = Math.ceil(i / 2) - 1;
+    /* const m = Math.ceil(i / 2) - 1;
 
     let p2 = p1 = head;
     for(i = 0; i < m + 1; i++) {
@@ -47,6 +51,27 @@ function reorderList(head: ListNode | null): void {
     while(p2) {
         p1 = p1.next;
         p2 = p2.next;
+    } */
+
+   /* 
+    Get the middle node
+    1,2,3   -> 2,4
+    1,2,3,4 -> 3,5
+    1,2,3,4,5 -> 3,6
+    1,2,3,4,5,6 -> 4,7
+
+
+    1,2,3 -> 1,1 2,3 p2.next
+    1,2,3,4 -> 1,1 2,3 3,5 p2
+    1,2,3,4,5 -> 1,1 2,3 3,5 p2.next
+    1,2,3,4,5,6 -> 1,1 2,3 3,5 4,7 p2
+   */
+
+    let p1 = head, p2 = head
+
+    while(p2 && p2.next) {
+        p1 = p1.next;
+        p2 = p2.next.next
     }
 
     const head2 = p1.next
