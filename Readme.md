@@ -98,6 +98,14 @@ prev = null, cur, next
 
 [leetcode 234.Palindrome Linked List](https://github.com/Terence-Cheng/Frontend_Blog/blob/main/leetcode/234.palindrome-linked-list.ts)
 
+### Stack and Queue
+
+20
+
+[leetcode 150.Evaluate Reverse Polish Notation](leetcode/150.evaluate-reverse-polish-notation.ts)
+
+[leetcode 71.Simplify Path](leetcode/71.simplify-path.ts)
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
