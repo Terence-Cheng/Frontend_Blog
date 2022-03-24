@@ -106,6 +106,24 @@ prev = null, cur, next
 
 [leetcode 71.Simplify Path](leetcode/71.simplify-path.ts)
 
+
+#### Recur and Stack
+
+[leetcode 144.Binary Tree Preorder Traversal](leetcode/144.binary-tree-preorder-traversal.ts)
+
+[leetcode 144.Iterator - Binary Tree Preorder Traversal](leetcode/144.iterator.binary-tree-preorder-traversal.ts)
+
+[leetcode 94.Binary Tree Inorder Traversal](leetcode/94.binary-tree-inorder-traversal.ts)
+
+[leetcode 94.Iterator - Bianry Tree Inorder Travesal](leetcode/94.iterator.binary-tree-inorder-traversal.ts)
+
+[leetcode 145.Binary Tree Postorder Traversal](leetcode/145.binary-tree-postorder-traversal.ts)
+
+[leetcode 145.Iterator - Binary Tree Postorder Travesal](leetcode/145.Iterator.binary-tree-postorder-traversal.ts)
+
+
+minutes 36
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
