@@ -100,6 +100,7 @@ prev = null, cur, next
 
 ### Stack and Queue
 
+#### Stack
 20
 
 [leetcode 150.Evaluate Reverse Polish Notation](leetcode/150.evaluate-reverse-polish-notation.ts)
@@ -121,8 +122,19 @@ prev = null, cur, next
 
 [leetcode 145.Iterator - Binary Tree Postorder Travesal](leetcode/145.Iterator.binary-tree-postorder-traversal.ts)
 
+[leetcode 341.Flatten Nested List Iterator](leetcode/341.flatten-nested-list-iterator.ts)
 
-minutes 36
+
+
+#### Queue - Binary Tree Level Order
+
+[leetcode 102.Binary Tree Level Order Travesal](leetcode/102.binary-tree-level-order-traversal.ts)
+
+[leetcode 107.Binary Tree Level Order Travesal II](leetcode/107.binary-tree-level-order-traversal-ii.ts)
+
+[leetcode 103.Binary Tree Zigzan Level Order Travesal](leetcode/103.binary-tree-zigzag-level-order-traversal.ts)
+
+[leetcode 199.Binary Tree Right Side View](leetcode/199.binary-tree-right-side-view.ts)
 
 ## Tyepscript
 
