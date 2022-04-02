@@ -136,6 +136,31 @@ prev = null, cur, next
 
 [leetcode 199.Binary Tree Right Side View](leetcode/199.binary-tree-right-side-view.ts)
 
+#### BFS - Graph
+
+[leetcode 279.Perfect Squares](leetcode/279.perfect-squares.ts)
+
+[leetocd 127.Word Ladder](leetcode/127.word-ladder.ts)
+
+todo 126
+
+
+#### Priority Queue
+todo
+Max Heap
+
+347
+
+23
+
+O(nlog(k))
+O(nlog(n-k))
+
+### Binary Tree and Recur
+
+[leetcode 104.Maximun Depth Of Binary Tree](leetcode/104.maximum-depth-of-binary-tree.ts)
+
+[leetcode 111.Minimun Depth Of Binary Tree](leetcode/111.minimum-depth-of-binary-tree.ts)
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
