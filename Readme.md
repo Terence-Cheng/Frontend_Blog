@@ -185,6 +185,27 @@ TODO: 110 - Another solution
 
 [leetcode 404.Sum of Left Leaves](leetcode/404.sum-of-left-leaves.ts)
 
+[leetcode 257.Binary Tree Paths](leetcode/257.binary-tree-paths.ts)
+
+[leetcode 113.Path Sum ii](leetcode/113.path-sum-ii.ts)
+
+[leetcode 129.Sum Root To Leaf Numbers](leetcode/129.sum-root-to-leaf-numbers.ts)
+
+[leetcode 437.Path Sum III](leetcode/437.path-sum-iii.ts)
+### Binary Search Tree
+
+[leetcode 235.Lowest Common Ancestor Of A Binary Search Tree](leetcode/235.lowest-common-ancestor-of-a-binary-search-tree.ts)
+
+236
+
+[leetcode 98.Validate Binary Search Tree](leetcode/98.validate-binary-search-tree.ts)
+
+[leetcode 450.Delete Node In a BST](leetcode/450.delete-node-in-a-bst.ts)
+
+[leetcode 108.Convert Sorted Array To Binary Search Tree](leetcode/108.convert-sorted-array-to-binary-search-tree.ts)
+
+[leetcode 230.Kth Smallest Element in a BST](leetcode/230.kth-smallest-element-in-a-bst.ts)
+
 ## Tyepscript
 
 [Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
