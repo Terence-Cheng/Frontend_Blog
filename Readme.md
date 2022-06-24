@@ -1,6 +1,11 @@
 # Front End Blog 
 https://frontendtricksblog.blogspot.com/  
 
+## Tyepscript
+[Typescript: Notes](typescript/readme.md)
+
+[Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
+
 ## 浏览器原理
 ### 浏览器渲染流程 
 [1. 浏览器渲染流程(1) — 渲染主流程](https://github.com/Terence-Cheng/Frontend_Blog/issues/2)
@@ -206,6 +211,3 @@ TODO: 110 - Another solution
 
 [leetcode 230.Kth Smallest Element in a BST](leetcode/230.kth-smallest-element-in-a-bst.ts)
 
-## Tyepscript
-
-[Typescript: Add customer properties in window or primitive prototype.](https://github.com/Terence-Cheng/Frontend_Blog/issues/9)
